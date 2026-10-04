@@ -143,15 +143,16 @@ The repository includes `sql/analytics.sql` for:
 - daily operational trends,
 - payment-type behavior.
 
-## Portfolio Talking Points
+## What I Built
 
-- Designed a layered Bronze/Silver/Gold data pipeline using PySpark and Parquet.
-- Added explicit schema/data-quality validation before downstream analytics.
-- Created reusable transformations and partitioned curated data by year/month.
-- Built Gold-level aggregate datasets for operational analytics.
-- Added Spark SQL queries and automated PySpark tests.
+- I built a Bronze/Silver/Gold pipeline in PySpark and stored each layer as Parquet.
+- I added schema checks and data-quality rules before sending records to the curated layer.
+- I kept the transformations reusable and partitioned the Silver data by pickup year and month.
+- I created Gold tables for daily trends, pickup-zone activity, and payment-type analysis.
+- I also wrote Spark SQL queries and PySpark tests to check the main transformations.
 
-## Scope
+## Project Scope
 
-This is a local portfolio implementation. It does **not** claim cloud deployment, cluster
-benchmarking, or production SLA performance.
+This is a local portfolio project where I focused on pipeline design, data quality, Parquet, and
+testing. I have not deployed it to the cloud or tested it on a production cluster, so I am not
+presenting it as a production system with SLA or performance guarantees.
