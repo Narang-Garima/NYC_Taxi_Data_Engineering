@@ -43,5 +43,4 @@ NYC TLC Yellow Taxi monthly Parquet
 The project separates source preservation, curated trip-level data, and downstream aggregates.
 That makes the transformations easier to audit and keeps analytical consumers away from raw records.
 
-This is a local portfolio implementation of layered data engineering. It does not claim a
-cloud deployment or distributed cluster benchmark.
+This is a local portfolio implementation of layered data engineering.
