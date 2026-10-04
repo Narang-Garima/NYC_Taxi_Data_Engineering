@@ -97,7 +97,7 @@ nyc_taxi_data_engineering/
 ├── docs/
 │   ├── architecture.md
 │   ├── data_quality.md
-│   └── project_log.md
+│   └── windows_pyspark_resolution.md
 ├── sql/
 │   └── analytics.sql
 ├── src/
