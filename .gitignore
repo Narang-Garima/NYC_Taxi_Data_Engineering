@@ -14,6 +14,7 @@ hadoop-*.zip
 # Local validation captures (results are summarized in docs)
 docs/*.log
 docs/validation_exit_codes.txt
+docs/project_log.md
 scripts/.publish_once.ps1
 
 # Data outputs
