@@ -1,0 +1,34 @@
+# Python / Spark
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.sparkStaging/
+metastore_db/
+derby.log
+.hadoop/
+hadoop-*.zip
+
+# Local validation captures (results are summarized in docs)
+docs/*.log
+docs/validation_exit_codes.txt
+scripts/.publish_once.ps1
+
+# Data outputs
+data/raw/*
+data/bronze/*
+data/silver/*
+data/gold/*
+!data/raw/.gitkeep
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+!data/gold/daily_metrics/.gitkeep
+!data/gold/zone_metrics/.gitkeep
+!data/gold/payment_metrics/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
